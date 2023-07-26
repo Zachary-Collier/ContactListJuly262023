@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*this is for my table design*/
+th {
+  color: red;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 33pt;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 60px;
+}
+
+tr {
+  color: white;
+  font-family: sans-serif;
+  padding: 40px;
+  margin-top: 85px;
+  border: 1px solid gray;
+}
+
+.info {
+  color: #6cc7f4;
+  font-size: 26pt;
+}
+
+td {
+  font-size: 17pt;
+  font-family: "Gill Sans";
+  padding: 10px;
+}
+
+.thisShowsLot:hover {
+  color: green;
+  cursor: pointer;
+}
+
+/*This is for the Selected Component*/
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #008cba;
+  text-align: center;
+}
+
+.backButton {
+  background-color: #008cba;
+  color: pink;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.backButton:hover {
+  cursor: pointer;
+  color: orange;
+}
